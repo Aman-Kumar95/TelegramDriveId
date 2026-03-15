@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f5f7fb;
+}
+
+.app {
+  padding: 30px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 28px;
+  color: black;
+}
+
+.header p {
+  color: #666;
+  margin-top: 4px;
+}
+
+.controls {
+  margin-top: 25px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.search {
+  padding: 10px 14px;
+  width: 260px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.upload-btn {
+  background: #4f46e5;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.upload-btn:hover {
+  background: #4338ca;
+}
+
+.grid {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  gap: 16px;
+}
