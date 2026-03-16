@@ -1,6 +1,6 @@
 import express from "express";
 import { BOT_TOKEN } from "../config/env.js";
-import {CHANNEL_ID} from  "../config/env.js"
+import { CHANNEL_ID } from  "../config/env.js"
 import multer from "multer";
 import axios from "axios";
 import FormData from "form-data";
